@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalcU</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <h1>calcU</h1>
+    <div class="numbers">
+    <b>Insert Number to the left of the operation: </b> <br> <input id="num1" type="number">
+    <br><br>
+    <button type="button" onclick="addition()">+</button>
+    <button type="button" onclick="subtraction()">-</button>
+    <button type="button" onclick="multiplication()">*</button>
+    <button type="button" onclick="division()">/</button>
+    <button type="button" onclick="remainder()">%</button>
+    <br><br>
+    <b>Insert Number to the right of the operation:</b> <br> <input id="num2" type="number">
+    </div>
+
+    <h2 id="result">Results will be displayed here.</h2>
+
+    <script src="script.js"></script>
+</body>
+</html>
